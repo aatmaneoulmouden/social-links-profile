@@ -1,8 +1,14 @@
-import './App.css'
+import "./App.css";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 function App() {
-
-  return <h1 className='text-red-300'>Hello</h1>
+  return (
+    <>
+      <Main />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;

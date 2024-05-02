@@ -8,4 +8,8 @@
   * {
     @apply font-inter;
   }
+
+  /* body {
+    @apply bg-off-black;
+  } */
 }
