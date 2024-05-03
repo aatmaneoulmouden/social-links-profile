@@ -6,10 +6,22 @@
 
 @layer base {
   * {
-    @apply font-inter;
+    @apply font-inter text-white;
   }
 
-  /* body {
+  body {
     @apply bg-off-black;
-  } */
+  }
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
+
+@layer components {
+  .social-link-item:not(:last-child) {
+    @apply mb-3;
+  }
 }
